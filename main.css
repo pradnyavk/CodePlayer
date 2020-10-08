@@ -1,0 +1,63 @@
+body{
+            font-family: sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        #header{
+            width:100%;
+            background-color:#EEEEEE;
+            border-bottom: 1px #BFBFBF solid;
+            padding:3px;
+            height: 27px;
+        }
+        #buttonContainer{
+            width: 400px;
+            margin: 0 auto;
+            
+        }
+        #logo{
+            margin:5px;
+            float: left;
+            font-weight: bold;
+            font-size: 120%;
+        }
+        .toggleButton{
+            height: 15px;
+            
+            float: left;
+            border:1px solid #BFBFBF;
+            border-left: none;
+            padding:5px;
+            cursor: pointer;
+        }
+        #output{
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        #html{
+            border-left: 1px solid #BFBFBF;
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+        .active{
+            background-color: #F5F9FF;
+        }
+        .highlightedButton{
+            background-color:#E4E4E4;
+        }
+        .panel{
+            width:50%;
+            float: left;
+            border:none;
+            border-right: 1px solid #BFBFBF;
+            resize: none;
+        }
+        #htmlPanel{
+            margin-left: -110px;
+        }
+        #outputPanel{
+            border-right: none;
+        }
+        .hidden{
+            display: none;
+        }
